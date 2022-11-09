@@ -1,0 +1,12 @@
+@keyframes change {
+    from { bakground: red}
+    to { bakground: green}
+}
+
+.sparkly {
+    font-size: 5rem;
+    animation-name: change;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
