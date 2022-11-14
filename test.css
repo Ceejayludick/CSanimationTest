@@ -1,12 +1,31 @@
-@keyframes change {
-    from { bakground: red}
-    to { bakground: green}
+/* the animation code */
+
+@keyframes
+@keyframes animatedSquare {
+
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: blue;
+    }
+
+    50% {
+        background-color: greenyellow;
+    }
+
+    100% {
+        background-color: beige;
+    }
 }
 
-.sparkly {
-    font-size: 5rem;
-    animation-name: change;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-
+/* the element to apply he animation */
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: animatedSquare;
+    animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
 }
