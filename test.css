@@ -1,24 +1,13 @@
 /* the animation code */
 
-@keyframes
-@keyframes animatedSquare {
 
-    0% {
-        background-color: red;
-    }
 
-    25% {
-        background-color: blue;
-    }
 
-    50% {
-        background-color: greenyellow;
-    }
 
-    100% {
-        background-color: beige;
-    }
-}
+/* Styling the image icon */
+
+
+
 
 /* the element to apply he animation */
 div {
